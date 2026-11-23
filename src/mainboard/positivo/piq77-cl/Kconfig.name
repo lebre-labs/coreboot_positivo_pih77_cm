@@ -1,4 +1,0 @@
-## SPDX-License-Identifier: GPL-2.0-only
-
-config BOARD_POSITIVO_PIQ77_CL
-	bool "PIQ77-CL"

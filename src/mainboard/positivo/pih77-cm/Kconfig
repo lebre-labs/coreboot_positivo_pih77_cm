@@ -1,6 +1,6 @@
 ## SPDX-License-Identifier: GPL-2.0-only
 
-if BOARD_POSITIVO_PIQ77_CL
+if BOARD_POSITIVO_PIH77_CM
 
 config BOARD_SPECIFIC_OPTIONS
 	def_bool y
@@ -16,11 +16,11 @@ config BOARD_SPECIFIC_OPTIONS
 
 config MAINBOARD_DIR
 	string
-	default "positivo/piq77-cl"
+	default "positivo/pih77-cm"
 
 config MAINBOARD_PART_NUMBER
 	string
-	default "PIQ77-CL"
+	default "PIH77-CM"
 
 config DRAM_RESET_GATE_GPIO # FIXME: check this
 	int
