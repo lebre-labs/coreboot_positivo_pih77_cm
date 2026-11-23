@@ -1,0 +1,18 @@
+## SPDX-License-Identifier: GPL-2.0-only
+
+if VENDOR_POSITIVO
+
+choice
+	prompt "Mainboard model"
+
+source "src/mainboard/positivo/*/Kconfig.name"
+
+endchoice
+
+source "src/mainboard/positivo/*/Kconfig"
+
+config MAINBOARD_VENDOR
+	string
+	default "Positivo"
+
+endif # VENDOR_POSITIVO
